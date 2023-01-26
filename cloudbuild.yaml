@@ -9,4 +9,6 @@ steps:
    
     terraform init
     terraform apply -auto-approve
- 
+
+options:
+  logging: CLOUD_LOGGING_ONLY
