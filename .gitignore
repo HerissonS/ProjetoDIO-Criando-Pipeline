@@ -1,0 +1,15 @@
+# Terraform - diretórios e arquivos locais de trabalho
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# O arquivo .terraform.lock.hcl é intencionalmente versionado
+# (boas práticas atuais do Terraform), por isso NÃO está aqui.
+
+# Credenciais - nunca versionar
+*.pem
+*.key
+*.p12
+service-account.json
+credentials.json
